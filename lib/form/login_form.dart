@@ -1,5 +1,5 @@
 import 'package:filme_flix/components/buttons/primary_button.dart';
-import 'package:filme_flix/utils/app_colors.dart';
+import 'package:filme_flix/components/constants/app_colors.dart';
 import 'package:filme_flix/utils/string_validator.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';

@@ -1,5 +1,5 @@
 import 'package:filme_flix/routes.dart';
-import 'package:filme_flix/utils/app_colors.dart';
+import 'package:filme_flix/components/constants/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    const String apiKey = String.fromEnvironment('API_KEY');
     return MaterialApp.router(
       title: 'Flutter Demo',
       theme: ThemeData(
