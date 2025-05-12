@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    const String apiKey = String.fromEnvironment('API_KEY');
     return MaterialApp.router(
       title: 'Flutter Demo',
       theme: ThemeData(

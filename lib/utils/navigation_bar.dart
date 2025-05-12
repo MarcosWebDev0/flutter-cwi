@@ -27,7 +27,7 @@ class _CustomNavigationBarState extends State<CustomNavigationBar> {
   void changePage(int index) {
     final route = tabs[index].text!;
     if (!context.mounted) return;
-    context.go(route, extra: index);
+    context.push(route, extra: index);
   }
 
   @override
